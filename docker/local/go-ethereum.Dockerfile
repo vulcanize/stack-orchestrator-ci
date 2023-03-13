@@ -1,4 +1,4 @@
-FROM ghcr.io/foundry-rs/foundry
+FROM ghcr.io/foundry-rs/foundry@sha256:37e0fd30c3fe3eddf15122606754eb26c2c4ba8db675c00e9975f207f97618cb
 
 RUN apk update ; apk add --no-cache --allow-untrusted ca-certificates curl bash git jq
 RUN apk add --no-cache --upgrade grep
